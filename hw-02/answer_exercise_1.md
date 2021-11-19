@@ -18,6 +18,8 @@ Usaria el siguiente comando que muestra toda la información del pod:
 
 `kubectl describe pods nginx`
 
+![getInsidePod](http://shorturl.at/ijHL7)
+
 -----
 
 **3. ¿Qué comando utilizarías para entrar dentro del pod?**
