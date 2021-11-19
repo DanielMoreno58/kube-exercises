@@ -6,7 +6,9 @@ _Respuesta_
 
 Usaria el siguiente comando:
 
-`kubectl logs nginx`
+`kubectl logs -f --tail 10 nginx`
+
+![getLast10Logs](http://shorturl.at/erwLQ)
 
 -----
 
