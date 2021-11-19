@@ -47,3 +47,18 @@ _Respuesta_
 **5. Indica la calidad de servicio (QoS) establecida en el pod que acabas de crear. ¿Qué lo has mirado?**
 
 _Respuesta_
+
+Lo vemos con el siguiente comando:
+
+`kubectl describe pods nginx`
+
+![getQuosClass](http://shorturl.at/nquHX)
+
+Un pod con una clase Guaranteed debe tener lo siguiente:
+
+* Todo contenedor debe tener una memoria límite
+* Todo contenedor debe tener un límite de CPU
+
+Esto se lo hemos indicado nosotros al momento de crear el pod en el yml como se muestra a continuacion:
+
+![getLimits](http://shorturl.at/prIS1)
