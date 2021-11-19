@@ -20,7 +20,7 @@ Usaria el siguiente comando que muestra toda la información del pod:
 
 `kubectl describe pods nginx`
 
-![getInsidePod](http://shorturl.at/ijHL7)
+![getIPPod](http://shorturl.at/ijHL7)
 
 -----
 
@@ -39,4 +39,11 @@ Usaria el siguiente comando:
 
 **4. ¿Necesitas visualizar el contenido que expone NGINX, ¿qué acciones debes llevar a cabo?**
 
-Indica la calidad de servicio (QoS) establecida en el pod que acabas de crear. ¿Qué lo has mirado?
+_Respuesta_
+
+
+-----
+
+**5. Indica la calidad de servicio (QoS) establecida en el pod que acabas de crear. ¿Qué lo has mirado?**
+
+_Respuesta_
