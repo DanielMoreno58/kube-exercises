@@ -3,7 +3,7 @@ kind: ReplicaSet
 metadata:
   name: nginx-replica
   labels:
-    app: nginx-server-replica
+    app: nginx-server
     tier: backend
 spec:
   replicas: 3
@@ -13,6 +13,7 @@ spec:
   template:
     metadata:
       labels:
+        app: nginx-server
         tier: backend
     spec:
       containers:
