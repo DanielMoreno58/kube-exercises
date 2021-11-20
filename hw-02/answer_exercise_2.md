@@ -14,6 +14,14 @@ Se crea un Replica Set agregando un nuevo fichero llamado **_replicaset.yml_** d
 
 **1. ¿Cúal sería el comando que utilizarías para escalar el número de replicas a 10?**
 
+_Respuesta_
+
+Con el siguiente comando:
+
+`kubectl scale --replicas=10 rs/nginx-replica`
+
+![scaleReplicaset](http://shorturl.at/ctE35)
+
 **2. Si necesito tener una replica en cada uno de los nodos de Kubernetes, ¿qué objeto se adaptaría mejor?**
 
 _Respuesta_
