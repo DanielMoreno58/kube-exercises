@@ -41,6 +41,14 @@ Usaria el siguiente comando:
 
 _Respuesta_
 
+Usaria el siguiente comando:
+
+`kubectl port-forward nginx 8080:80`
+
+![getPortForward](http://shorturl.at/cBHJP)
+
+![getPortForwardChrome](http://shorturl.at/glpER)
+
 
 -----
 
