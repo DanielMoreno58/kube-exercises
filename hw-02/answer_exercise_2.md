@@ -1,6 +1,6 @@
 # Answer 2
 
-**Explicacion**
+**Creación de ReplicaSet**
 
 Crear un objeto de tipo replicaSet a partir del objeto anterior
 
@@ -15,3 +15,7 @@ Se crea un Replica Set agregando un nuevo fichero llamado **_replicaset.yml_** d
 **1. ¿Cúal sería el comando que utilizarías para escalar el número de replicas a 10?**
 
 **2. Si necesito tener una replica en cada uno de los nodos de Kubernetes, ¿qué objeto se adaptaría mejor?**
+
+_Respuesta_
+
+DaemonSet
