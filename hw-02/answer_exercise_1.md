@@ -8,7 +8,7 @@ Usaria el siguiente comando:
 
 `kubectl logs -f --tail 10 nginx`
 
-![getLast10Logs](http://shorturl.at/erwLQ)
+![getLast10Logs](https://raw.githubusercontent.com/DanielMoreno58/kube-exercises/master/images/getLast10Logs.png)
 
 -----
 
@@ -20,7 +20,7 @@ Usaria el siguiente comando que muestra toda la información del pod:
 
 `kubectl describe pods nginx`
 
-![getIPPod](http://shorturl.at/ijHL7)
+![getIPPod](https://raw.githubusercontent.com/DanielMoreno58/kube-exercises/master/images/getIpPods.png)
 
 -----
 
@@ -33,7 +33,7 @@ Usaria el siguiente comando:
 `kubectl exec --stdin --tty nginx  -- /bin/bash`
 
 
-![getInsidePod](http://shorturl.at/jzRTY)
+![getInsidePod](https://raw.githubusercontent.com/DanielMoreno58/kube-exercises/master/images/getInsidePod.png)
 
 -----
 
@@ -45,9 +45,9 @@ Usaria el siguiente comando:
 
 `kubectl port-forward nginx 8080:80`
 
-![getPortForward](http://shorturl.at/cBHJP)
+![getPortForward](https://raw.githubusercontent.com/DanielMoreno58/kube-exercises/master/images/portForward.png)
 
-![getPortForwardChrome](http://shorturl.at/glpER)
+![getPortForwardChrome](https://raw.githubusercontent.com/DanielMoreno58/kube-exercises/master/images/portForwardChrome.png)
 
 
 -----
@@ -60,7 +60,7 @@ Lo vemos con el siguiente comando:
 
 `kubectl describe pods nginx`
 
-![getQuosClass](http://shorturl.at/nquHX)
+![getQuosClass](https://raw.githubusercontent.com/DanielMoreno58/kube-exercises/master/images/getQuosClass.png)
 
 Un pod con una clase Guaranteed debe tener lo siguiente:
 
@@ -69,4 +69,4 @@ Un pod con una clase Guaranteed debe tener lo siguiente:
 
 Esto se lo hemos indicado nosotros al momento de crear el pod en el yml como se muestra a continuacion:
 
-![getLimits](http://shorturl.at/prIS1)
+![getLimits](https://raw.githubusercontent.com/DanielMoreno58/kube-exercises/master/images/getLimits.png)

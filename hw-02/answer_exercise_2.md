@@ -10,7 +10,7 @@ Se crea un Replica Set agregando un nuevo fichero llamado **_replicaset.yml_** d
 
 `kubectl create -f replicaset.yml`
 
-![createReplicaSet](http://shorturl.at/asKNV)
+![createReplicaSet](https://raw.githubusercontent.com/DanielMoreno58/kube-exercises/master/images/createReplicaSet.png)
 
 ----
 
@@ -22,7 +22,7 @@ Con el siguiente comando:
 
 `kubectl scale --replicas=10 rs/nginx-replica`
 
-![scaleReplicaset](http://shorturl.at/ctE35)
+![scaleReplicaset](https://raw.githubusercontent.com/DanielMoreno58/kube-exercises/master/images/scaleReplicaset.png)
 
 ----
 

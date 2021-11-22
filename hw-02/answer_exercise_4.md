@@ -12,7 +12,7 @@ Se uso el siguiente comando:
 
 `kubectl apply -f deployment.yml`
 
-![deployment](http://shorturl.at/sHST8)
+![deployment](https://raw.githubusercontent.com/DanielMoreno58/kube-exercises/master/images/deployment.png)
 
 ----
 
@@ -24,9 +24,9 @@ Se uso el siguiente comando:
 
 `kubectl set image deployment.v1.apps/nginx-deployment nginx=nginx:1.19.5 --record=true`
 
-![rolloutDeployment](http://shorturl.at/fqIQT)
+![rolloutDeployment](https://raw.githubusercontent.com/DanielMoreno58/kube-exercises/master/images/rolloutDeployment.png)
 
-![deploymentDescribe](http://shorturl.at/eoH07)
+![deploymentDescribe](https://raw.githubusercontent.com/DanielMoreno58/kube-exercises/master/images/describeDeployment.png)
 
 ----
 
@@ -38,5 +38,5 @@ Se usa el siguiente comando:
 
 `kubectl rollout undo deployment nginx-deployment --to-revision=1`
 
-![rolloutPreviousVersion](http://shorturl.at/fEI06)
+![rolloutPreviousVersion](https://raw.githubusercontent.com/DanielMoreno58/kube-exercises/master/images/rolloutPreviousVersion.png)
 

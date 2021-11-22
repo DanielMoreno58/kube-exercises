@@ -16,4 +16,4 @@ _Respuesta_
 
 4. Se redirige el trafico del service hacia deployment2 subiendo la version en el yml
 
-![serviceUpdateYml](http://shorturl.at/bdyU2)
+![serviceUpdateYml](https://raw.githubusercontent.com/DanielMoreno58/kube-exercises/master/images/updateService.png)

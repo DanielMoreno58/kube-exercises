@@ -8,7 +8,7 @@ Crear un objeto de tipo service para exponer la aplicación del ejercicio anteri
 
 **Exposicion de servicios kubernetes** 
 
-![service1](http://shorturl.at/bdvMX)
+![exposeServices](https://raw.githubusercontent.com/DanielMoreno58/kube-exercises/master/images/exposeServices.png)
 
 ----
 
