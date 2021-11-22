@@ -16,4 +16,4 @@ _Respuesta_
 
 4. Se redirige el trafico del service hacia deployment2 subiendo la version en el yml
 
-![serviceUpdateYml](http://shorturl.at/puvxF)
+![serviceUpdateYml](http://shorturl.at/bdyU2)
