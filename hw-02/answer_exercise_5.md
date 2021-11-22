@@ -16,4 +16,6 @@ _Respuesta_
 
 4. Se redirige el trafico del service hacia deployment2 subiendo la version en el yml
 
+`kubectl apply -f service1.yml`
+
 ![serviceUpdateYml](https://raw.githubusercontent.com/DanielMoreno58/kube-exercises/master/images/updateService.png)
